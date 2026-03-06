@@ -6,20 +6,10 @@
   <meta name="description"
     content="Learn about International Journal of Advanced Computing and Mechanical Systems (IJACM), a leading international academic journal. dedicated to advanced computing and mechanical systems research. Innovative, open-access, and peer-reviewed.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="https:/ijacm.com/pages/about.html">
-
-
-
-
+  <link rel="canonical" href="https://ijacm.com/pages/about.html">
   <meta charset="UTF-8">
-
-
-
-
   <meta name="keywords"
     content="International Journal of Advanced Computing, Mechanical Systems Research, Open Access Engineering Journal, Robotics and Mechatronics, Intelligent Algorithms, Industry 4.0 Research">
-
-
   <meta property="og:title" content="About International Journal of Advanced Computing and Mechanical Systems (IJACM) Journal">
   <meta property="og:description"
     content="Join a global platform for innovative research in computational methods and mechanical engineering.">
@@ -161,10 +151,35 @@
       color: var(--text-light);
       font-size: 1.1rem;
       max-width: 800px;
-      margin: 0 auto;
+      margin: 0 auto 30px auto;
       line-height: 1.8;
       text-align: justify;
       padding: 0 10px;
+    }
+
+    /* JOURNAL PARTICULARS TABLE (new style for about page) */
+    .particulars-table {
+      width: 100%;
+      background: #f8f9fa;
+      border-radius: var(--radius-sm);
+      border-collapse: collapse;
+      margin: 20px auto 0 auto;
+      font-size: 15px;
+      box-shadow: var(--shadow-sm);
+      color: #000;
+      text-align: left;
+    }
+    .particulars-table td {
+      padding: 12px 15px;
+      border: 1px solid #dee2e6;
+    }
+    .particulars-table td:first-child {
+      font-weight: 700;
+      background-color: #e9ecef;
+      width: 30%;
+    }
+    .particulars-table td:last-child {
+      background-color: #ffffff;
     }
 
     /* Content Sections */
@@ -361,6 +376,21 @@
           technologies and mechanical systems research. We provide a platform for high-quality interdisciplinary
           research work in engineering and computational innovation.
         </p>
+
+        <!-- ===== JOURNAL PARTICULARS TABLE (exactly from image) ===== -->
+        <table class="particulars-table">
+          <tr><td>Title</td><td>International Journal of Advanced Computing and Mechanical Systems (IJACM)</td></tr>
+          <tr><td>Frequency</td><td>Monthly (12 issues per year)</td></tr>
+          <tr><td>E-ISSN</td><td>Not Yet Assigned</td></tr>
+          <tr><td>Publisher name</td><td>Scholar Sphere Publications</td></tr>
+          <tr><td>Publisher address</td><td>Thalupulapalle, Chittoor, Andhra Pradesh - 517 124</td></tr>
+          <tr><td>Starting Year</td><td>2025</td></tr>
+          <tr><td>Subject</td><td>Multi-Disciplinary Subjects (Science, Engineering, and Management)</td></tr>
+          <tr><td>Language</td><td>English Only</td></tr>
+          <tr><td>Publication Format</td><td>Online Only</td></tr>
+          <tr><td>Email Id</td><td>editor@ijacm.com, ijacmeditor@gmail.com</td></tr>
+          <tr><td>Mobile No.</td><td>+91-9030475343</td></tr>
+        </table>
       </section>
 
       <section class="content-section" id="vision-mission">
@@ -450,7 +480,7 @@
       const scrollTop = window.pageYOffset;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercent = (scrollTop / docHeight) * 100;
-      scrollProgress.style.width = scrollPercent + '%';
+      if (scrollProgress) scrollProgress.style.width = scrollPercent + '%';
       const backToTop = document.getElementById('backToTop');
       if (scrollTop > 300) { backToTop.classList.add('visible'); } else { backToTop.classList.remove('visible'); }
     }
@@ -469,9 +499,12 @@
         updateScrollProgress();
         handleScrollAnimations();
       });
-      document.getElementById('backToTop').addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
+      const backToTopBtn = document.getElementById('backToTop');
+      if (backToTopBtn) {
+        backToTopBtn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
     });
   </script>
 </body>

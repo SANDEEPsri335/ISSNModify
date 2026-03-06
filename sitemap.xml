@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- =========================
+       JOURNAL CORE PAGES
+       ========================= -->
+
+  <url>
+    <loc>https://ijacm.com/</loc>
+    <lastmod>2026-01-23</lastmod>
+  </url>
+
+  
+  <url>
+    <loc>https://ijacm.com/pages/current-issue.html</loc>
+    <lastmod>2026-01-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/pages/editorial-board.html</loc>
+    <lastmod>2026-01-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/pages/aims-scope.html</loc>
+    <lastmod>2026-01-23</lastmod>
+  </url>
+
+  <!-- =========================
+       ARTICLE HTML PAGES
+       ========================= -->
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-4148675E.html</loc>
+    <lastmod>2026-01-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-7DBC730C.html</loc>
+    <lastmod>2026-01-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-9ED1A14D.html</loc>
+    <lastmod>2026-01-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-A3F60F57.html</loc>
+    <lastmod>2026-01-19</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-BEBB7D71.html</loc>
+    <lastmod>2026-01-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-F3AF7761.html</loc>
+    <lastmod>2026-01-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-20048426.html</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+    <url>
+    <loc>https://ijacm.com/articles/IJACM-851C7556.html</loc>
+    <lastmod>2026-01-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ijacm.com/articles/IJACM-9BB57F3D1.html</loc>
+    <lastmod>2026-02-02</lastmod>
+  </url>
+<url>
+    <loc>https://ijacm.com/articles/IJACM-880D528A.html</loc>
+    <lastmod>2026-02-07</lastmod>
+</url>
+  <!-- =========================
+       ARTICLE PDF FILES
+       (CRITICAL FOR SCHOLAR)
+       ========================= -->
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-EB6C94D4.pdf</loc>
+    <lastmod>2025-12-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-1C6C2DE8.pdf</loc>
+    <lastmod>2025-12-06</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-D1275BC9.pdf</loc>
+    <lastmod>2025-12-12</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-E4947F98.pdf</loc>
+    <lastmod>2025-12-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-FCE54392.pdf</loc>
+    <lastmod>2025-12-24</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-429BB5C7.pdf</loc>
+    <lastmod>2025-12-24</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-BEBB7D71.pdf</loc>
+    <lastmod>2026-01-13</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-20048426.pdf</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-851C7556.pdf</loc>
+    <lastmod>2026-01-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ijacm.com/paper/IJACM-9BB57F3D1.pdf</loc>
+    <lastmod>2026-02-02</lastmod>
+  </url>
+    <url>
+    <loc>https://ijacm.com/paper/IJACM-880D528A.pdf</loc>
+    <lastmod>2026-02-07</lastmod>
+  </url>
+</urlset>
